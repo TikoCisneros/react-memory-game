@@ -1,10 +1,7 @@
-import { Center } from '../styled-system/jsx';
+import { Layout } from './components';
 
 function App() {
-  return (
-  <Center h="100vh" fontSize="xxx-large" fontWeight={600} bg="yellow.200">
-    Hello 🐼!
-  </Center>);
+  return <Layout>Hello 🐼!</Layout>;
 }
 
 export default App;
