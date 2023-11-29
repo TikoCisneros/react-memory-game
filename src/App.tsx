@@ -1,7 +1,11 @@
-import { Layout } from './components';
+import { Card, Layout } from './components';
 
 function App() {
-  return <Layout>Hello 🐼!</Layout>;
+  return (
+    <Layout>
+      <Card />
+    </Layout>
+  );
 }
 
 export default App;
