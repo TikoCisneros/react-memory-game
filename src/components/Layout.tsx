@@ -6,7 +6,7 @@ type LayoutProps = {
 };
 
 const styles = center({
-  h: '100vh',
+  minHeight: '100vh',
   fontSize: 'x-large',
   bg: `linear-gradient(55deg, rgb(185, 169, 103) 25%, transparent 25%) 0% 0% / 20px 30px,
     linear-gradient(125deg, rgb(185, 169, 103) 25%, transparent 25%),

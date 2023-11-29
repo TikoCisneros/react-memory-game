@@ -16,6 +16,7 @@ export const cardStyle = cva({
     flipped: {
       flip: {
         transform: 'rotateY(180deg)',
+        cursor: 'not-allowed'
       },
       noFlip: {
         transform: 'rotateY(0deg)',
