@@ -21,7 +21,7 @@ import the_tower from '../assets/the_tower.jpg';
 import the_world from '../assets/the_world.jpg';
 import wheel_of_fortune from '../assets/wheel_of_fortune.jpg';
 
-export const CARDS: string[] = [
+export const CARD_IMAGES: string[] = [
   death,
   judgement,
   justice,
